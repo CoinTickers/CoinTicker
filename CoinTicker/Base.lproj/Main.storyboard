@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14109"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Application-->
+        <scene sceneID="JPo-4y-FX3">
+            <objects>
+                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="CoinTicker" customModuleProvider="target">
+                    <connections>
+                        <outlet property="currencyStartSeparator" destination="0qJ-1T-SNb" id="Bfa-B4-AgX"/>
+                        <outlet property="exchangeMenuItem" destination="5Er-8L-qOO" id="blb-hw-lEA"/>
+                        <outlet property="mainMenu" destination="vYf-vh-d69" id="rvF-sV-ypa"/>
+                        <outlet property="quitMenuItem" destination="aEa-aJ-8Ch" id="Zct-AC-IIh"/>
+                        <outlet property="showIconMenuItem" destination="OiI-ij-mGF" id="csu-Nd-NEV"/>
+                        <outlet property="updateIntervalMenuItem" destination="lbB-L9-6x8" id="W1b-AO-D4g"/>
+                    </connections>
+                </customObject>
+                <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+                <menu id="vYf-vh-d69">
+                    <items>
+                        <menuItem title="Exchange" id="5Er-8L-qOO">
+                            <modifierMask key="keyEquivalentModifierMask"/>
+                            <menu key="submenu" title="Exchange" id="fga-XW-why" userLabel="Exchange Sub Menu">
+                                <items>
+                                    <menuItem title="Binance" state="on" tag="200" id="QjD-IZ-7n9">
+                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                        <connections>
+                                            <action selector="onSelectExchangeSiteWithSender:" target="Voe-Tx-rLC" id="rww-wG-xh7"/>
+                                        </connections>
+                                    </menuItem>
+                                    <menuItem title="Bitfinex" tag="205" id="jVf-dv-I03">
+                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                        <connections>
+                                            <action selector="onSelectExchangeSiteWithSender:" target="Voe-Tx-rLC" id="NXD-vF-TMb"/>
+                                        </connections>
+                                    </menuItem>
+                                    <menuItem title="Bithumb" tag="207" id="zhy-Te-VdY">
+                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                        <connections>
+                                            <action selector="onSelectExchangeSiteWithSender:" target="Voe-Tx-rLC" id="bXC-mn-5EW"/>
+                                        </connections>
+                                    </menuItem>
+                                    <menuItem title="Bitstamp" tag="210" id="Tbe-f7-Epu">
+                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                        <connections>
+                                            <action selector="onSelectExchangeSiteWithSender:" target="Voe-Tx-rLC" id="dUd-AL-J0Z"/>
+                                        </connections>
+                                    </menuItem>
+                                    <menuItem title="Bittrex" tag="225" id="Pde-7u-X42">
+                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                        <connections>
+                                            <action selector="onSelectExchangeSiteWithSender:" target="Voe-Tx-rLC" id="NPA-sP-cEF"/>
+                                        </connections>
+                                    </menuItem>
+                                    <menuItem title="Bit-Z" tag="230" id="Sdd-vl-X4d">
+                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                        <connections>
+                                            <action selector="onSelectExchangeSiteWithSender:" target="Voe-Tx-rLC" id="iVi-Dd-Ne5"/>
+                                        </connections>
+                                    </menuItem>
+                                    <menuItem title="Coincheck" tag="235" id="Flo-pw-qiD">
+                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                        <connections>
+                                            <action selector="onSelectExchangeSiteWithSender:" target="Voe-Tx-rLC" id="pcG-RS-VGl"/>
+                                        </connections>
+                                    </menuItem>
+                                    <menuItem title="Coinone" tag="237" id="So7-Vt-2Q9">
+                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                        <connections>
+                                            <action selector="onSelectExchangeSiteWithSender:" target="Voe-Tx-rLC" id="Mkp-jD-qet"/>
+                                        </connections>
+                                    </menuItem>
+                                    <menuItem title="Gate.io" tag="239" id="r4W-dz-PeK">
+                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                        <connections>
+                                            <action selector="onSelectExchangeSiteWithSender:" target="Voe-Tx-rLC" id="RPb-aZ-qZl"/>
+                                        </connections>
+                                    </menuItem>
+                                    <menuItem title="GDAX" tag="240" id="deQ-Xh-l5A">
+                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                        <connections>
+                                            <action selector="onSelectExchangeSiteWithSender:" target="Voe-Tx-rLC" id="F1P-aa-4dD"/>
+                                        </connections>
+                                    </menuItem>
+                                    <menuItem title="HitBTC" tag="241" id="POr-JF-fef">
+                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                        <connections>
+                                            <action selector="onSelectExchangeSiteWithSender:" target="Voe-Tx-rLC" id="UkX-oy-eT4"/>
+                                        </connections>
+                                    </menuItem>
+                                    <menuItem title="Huobi Pro" tag="243" id="7sG-AA-ZZk">
+                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                        <connections>
+                                            <action selector="onSelectExchangeSiteWithSender:" target="Voe-Tx-rLC" id="T2J-aS-6yB"/>
+                                        </connections>
+                                    </menuItem>
+                                    <menuItem title="Korbit" tag="245" id="Sg8-ZZ-6gG">
+                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                        <connections>
+                                            <action selector="onSelectExchangeSiteWithSender:" target="Voe-Tx-rLC" id="ekL-kf-J2R"/>
+                                        </connections>
+                                    </menuItem>
+                                    <menuItem title="Kraken" tag="250" id="cvw-YE-9dO">
+                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                        <connections>
+                                            <action selector="onSelectExchangeSiteWithSender:" target="Voe-Tx-rLC" id="P21-ms-0JY"/>
+                                        </connections>
+                                    </menuItem>
+                                    <menuItem title="LBank" tag="260" id="pY8-hS-t8h">
+                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                        <connections>
+                                            <action selector="onSelectExchangeSiteWithSender:" target="Voe-Tx-rLC" id="Z0E-34-hQt"/>
+                                        </connections>
+                                    </menuItem>
+                                    <menuItem title="OKEx" tag="275" id="7LC-YN-Ox5">
+                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                        <connections>
+                                            <action selector="onSelectExchangeSiteWithSender:" target="Voe-Tx-rLC" id="imW-3c-KFh"/>
+                                        </connections>
+                                    </menuItem>
+                                    <menuItem title="Paribu" tag="290" id="T6N-10-8Mm" userLabel="Paribu">
+                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                        <connections>
+                                            <action selector="onSelectExchangeSiteWithSender:" target="Voe-Tx-rLC" id="p1q-gv-5yc"/>
+                                        </connections>
+                                    </menuItem>
+                                    <menuItem title="Poloniex" tag="300" id="Fwf-4X-da0">
+                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                        <connections>
+                                            <action selector="onSelectExchangeSiteWithSender:" target="Voe-Tx-rLC" id="USk-V9-VLU"/>
+                                        </connections>
+                                    </menuItem>
+                                </items>
+                                <accessibility identifier="exchangeSubMenu"/>
+                            </menu>
+                            <accessibility identifier="exchangeMenuItem"/>
+                        </menuItem>
+                        <menuItem title="Update Interval" id="lbB-L9-6x8">
+                            <modifierMask key="keyEquivalentModifierMask"/>
+                            <menu key="submenu" title="Update Interval" id="CVu-iO-yB7" userLabel="Update Interval Sub Menu">
+                                <items>
+                                    <menuItem title="Real-Time" state="on" tag="5" id="iQK-Z7-1Fe">
+                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                        <accessibility identifier="realTimeMenuItem"/>
+                                        <connections>
+                                            <action selector="onSelectUpdateIntervalWithSender:" target="Voe-Tx-rLC" id="Rlz-gp-Jou"/>
+                                        </connections>
+                                    </menuItem>
+                                    <menuItem title="30 seconds" tag="30" id="Rhw-zp-0cE">
+                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                        <accessibility identifier="seconds30MenuItem"/>
+                                        <connections>
+                                            <action selector="onSelectUpdateIntervalWithSender:" target="Voe-Tx-rLC" id="R9s-C8-rL6"/>
+                                        </connections>
+                                    </menuItem>
+                                    <menuItem title="1 minute" tag="60" id="nHw-cI-P1y">
+                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                        <accessibility identifier="minutes1MenuItem"/>
+                                        <connections>
+                                            <action selector="onSelectUpdateIntervalWithSender:" target="Voe-Tx-rLC" id="sol-R2-en7"/>
+                                        </connections>
+                                    </menuItem>
+                                    <menuItem title="5 minutes" tag="300" id="UVx-hm-2HX">
+                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                        <accessibility identifier="minutes5MenuItem"/>
+                                        <connections>
+                                            <action selector="onSelectUpdateIntervalWithSender:" target="Voe-Tx-rLC" id="DEB-T6-KNQ"/>
+                                        </connections>
+                                    </menuItem>
+                                    <menuItem title="15 minutes" tag="900" id="zO4-RI-LsE">
+                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                        <accessibility identifier="minutes15MenuItem"/>
+                                        <connections>
+                                            <action selector="onSelectUpdateIntervalWithSender:" target="Voe-Tx-rLC" id="pwX-Hq-YJN"/>
+                                        </connections>
+                                    </menuItem>
+                                    <menuItem title="30 minutes" tag="1800" id="iCj-ws-s49">
+                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                        <accessibility identifier="minutes30MenuItem"/>
+                                        <connections>
+                                            <action selector="onSelectUpdateIntervalWithSender:" target="Voe-Tx-rLC" id="yCZ-I7-2Fa"/>
+                                        </connections>
+                                    </menuItem>
+                                </items>
+                                <accessibility identifier="updateIntervalSubMenu"/>
+                            </menu>
+                            <accessibility identifier="updateIntervalMenuItem"/>
+                        </menuItem>
+                        <menuItem isSeparatorItem="YES" id="0qJ-1T-SNb">
+                            <accessibility identifier="currencyStartSeparator"/>
+                        </menuItem>
+                        <menuItem isSeparatorItem="YES" id="kz9-oF-43U" userLabel="Currency End Separator">
+                            <accessibility identifier="currencyEndSeparator"/>
+                        </menuItem>
+                        <menuItem title="Options" id="ye1-ef-Ui6">
+                            <modifierMask key="keyEquivalentModifierMask"/>
+                            <menu key="submenu" title="Options" id="GJN-LJ-KkF">
+                                <items>
+                                    <menuItem title="Show Icon" state="on" id="OiI-ij-mGF">
+                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                        <connections>
+                                            <action selector="onToggleShowIconWithSender:" target="Voe-Tx-rLC" id="i8i-q3-NMs"/>
+                                        </connections>
+                                    </menuItem>
+                                </items>
+                            </menu>
+                        </menuItem>
+                        <menuItem isSeparatorItem="YES" id="7b9-mn-HmY"/>
+                        <menuItem title="Quit" id="aEa-aJ-8Ch">
+                            <modifierMask key="keyEquivalentModifierMask"/>
+                            <accessibility identifier="quitMenuItem"/>
+                            <connections>
+                                <action selector="onQuitWithSender:" target="Voe-Tx-rLC" id="KhP-PC-8lw"/>
+                            </connections>
+                        </menuItem>
+                    </items>
+                    <accessibility identifier="mainMenu"/>
+                </menu>
+                <application id="hnw-xV-0zn" sceneMemberID="viewController">
+                    <menu key="mainMenu" systemMenu="main" id="AYu-sK-qS6"/>
+                    <connections>
+                        <outlet property="delegate" destination="Voe-Tx-rLC" id="PrD-fu-P6m"/>
+                    </connections>
+                </application>
+            </objects>
+            <point key="canvasLocation" x="75" y="0.0"/>
+        </scene>
+        <!--Window Controller-->
+        <scene sceneID="R2V-B0-nI4">
+            <objects>
+                <windowController storyboardIdentifier="MainWindowController" id="B8D-0N-5wS" sceneMemberID="viewController">
+                    <window key="window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
+                        <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+                        <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+                        <rect key="contentRect" x="196" y="240" width="480" height="270"/>
+                        <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1027"/>
+                        <connections>
+                            <outlet property="delegate" destination="B8D-0N-5wS" id="Em6-4j-RCl"/>
+                        </connections>
+                    </window>
+                    <connections>
+                        <segue destination="3Ip-H5-Ue0" kind="relationship" relationship="window.shadowedContentViewController" id="0Zb-Aj-5vN"/>
+                    </connections>
+                </windowController>
+                <customObject id="Oky-zY-oP4" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="75" y="250"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="SA0-tb-2c7">
+            <objects>
+                <viewController id="3Ip-H5-Ue0" sceneMemberID="viewController">
+                    <view key="view" id="oZF-Bl-EeI">
+                        <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </view>
+                </viewController>
+                <customObject id="OOe-wP-mif" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="75" y="653"/>
+        </scene>
+    </scenes>
+</document>

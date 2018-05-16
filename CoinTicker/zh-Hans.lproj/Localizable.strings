@@ -1,0 +1,25 @@
+"menu.label.loading" = "正在加载···";
+"menu.label.offline" = "脱机";
+
+"currency.usd.title" = "美元";
+"currency.eur.title" = "欧元";
+"currency.gbp.title" = "英镑";
+"currency.cad.title" = "加拿大元";
+"currency.cny.title" = "中国人民币";
+"currency.jpy.title" = "日元";
+"currency.krw.title" = "韩圆";
+"currency.rub.title" = "俄罗斯卢布";
+"currency.try.title" = "土耳其里拉";
+
+"currency.bch.title" = "比特币现金";
+"currency.btc.title" = "比特币";
+"currency.dash.title" = "加密货币";
+"currency.doge.title" = "多吉币";
+"currency.etc.title" = "古典以太坊";
+"currency.eth.title" = "以太坊";
+"currency.ltc.title" = "莱特币";
+"currency.nmc.title" = "域名币";
+"currency.ppc.title" = "点点币";
+"currency.xlm.title" = "恒星币";
+"currency.xmr.title" = "门罗币";
+"currency.xrp.title" = "瑞波币";

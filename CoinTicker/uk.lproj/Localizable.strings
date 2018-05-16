@@ -1,0 +1,14 @@
+"menu.label.loading" = "Завантаження...";
+"menu.label.offline" = "Автономний";
+
+"currency.usd.title" = "Долар США";
+"currency.eur.title" = "Євро";
+"currency.gbp.title" = "Британський фунт";
+"currency.cad.title" = "Канадський долар";
+"currency.cny.title" = "Китайський юань";
+"currency.jpy.title" = "Японська єна";
+"currency.krw.title" = "Південнокорейська вона";
+"currency.rub.title" = "Російський рубль";
+"currency.try.title" = "Турецька ліра";
+
+"currency.btc.title" = "Біткойн";

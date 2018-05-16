@@ -1,0 +1,11 @@
+"menu.label.loading" = "Chargement ...";
+"menu.label.offline" = "Hors connexion";
+
+"currency.usd.title" = "Dollar des États-Unis";
+"currency.gbp.title" = "Livre britannique";
+"currency.cad.title" = "Dollar canadien";
+"currency.cny.title" = "Yuan chinois";
+"currency.jpy.title" = "Yen japonais";
+"currency.krw.title" = "Won sud-coréen";
+"currency.rub.title" = "Rouble russe";
+"currency.try.title" = "Livre turque";

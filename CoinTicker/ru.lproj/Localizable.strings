@@ -1,0 +1,14 @@
+"menu.label.loading" = "Загрузка...";
+"menu.label.offline" = "Автономный";
+
+"currency.usd.title" = "Доллар США";
+"currency.eur.title" = "Евро";
+"currency.gbp.title" = "Британский фунт";
+"currency.cad.title" = "Канадский доллар";
+"currency.cny.title" = "Китайский юань";
+"currency.jpy.title" = "Японская иена";
+"currency.krw.title" = "Южнокорейская вона";
+"currency.rub.title" = "Российский рубль";
+"currency.try.title" = "Турецкая лира";
+
+"currency.btc.title" = "Биткойн";

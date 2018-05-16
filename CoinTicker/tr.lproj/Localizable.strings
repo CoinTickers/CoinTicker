@@ -1,0 +1,11 @@
+"menu.label.loading" = "Yükleniyor...";
+"menu.label.offline" = "Çevrimdışı";
+
+"currency.usd.title" = "ABD doları";
+"currency.gbp.title" = "İngiliz sterlini";
+"currency.cad.title" = "Kanada doları";
+"currency.cny.title" = "Çin yuanı";
+"currency.jpy.title" = "Japon yeni";
+"currency.krw.title" = "Güney Kore wonu";
+"currency.rub.title" = "Rus rublesi";
+"currency.try.title" = "Türk lirası";
